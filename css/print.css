@@ -1,0 +1,301 @@
+@CHARSET "ISO-8859-1";
+
+h4 {
+	text-align: center;
+}
+
+.parametro {
+	font-size: 0.8em;
+}
+
+.tableLimpa {
+	width: 100%;
+	font-size: 0.8em;
+	background: white;
+}
+
+.tableLinhas {
+	width: 100%;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	font-size: 0.6em;
+	background: white;
+}
+
+
+.tableLinhas tr:hover {
+	background: #dfdfdf;
+}
+
+.tableLinhas td, .tableLinhas th {
+	padding: 3px 5px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.tableLinhas th {
+	text-align: left;
+	font-weight: bold;
+	background: #cfcfcf;
+}
+
+.tableLinhas1 {
+	width: 100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	/*border-right: 1px solid green;*/
+	/*border-left: 1px solid black;*/
+	/*border-right: 1px solid black;*/
+	font-size: 0.6em;
+	background: white;
+}
+
+
+.tableLinhas1 tr:hover {
+	background: #dfdfdf;
+}
+
+.tableLinhas1 td, .tableLinhas1 th {
+	padding: 3px 5px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	
+	
+}
+
+.right_transparent{
+
+border-right: 1px solid transparent !important;
+
+
+}
+
+
+
+.tableLinhas1 th {
+	text-align: left;
+	font-weight: bold;
+	background: #cfcfcf;
+}
+
+
+.campoPreencher {
+	width: 100%;
+	padding: 8px 0 3px 0;
+	border-bottom: 1px solid gray;
+	font-size: 10px;
+	line-height: 10px;
+}
+/*tabla de imprimir*/
+
+.tabela{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size:14px;
+   
+ 
+}
+.tabelainfo{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size:14px;
+  border:1px solid #000;
+   
+ 
+}
+
+.design{
+    border:1px solid #000;
+	height:130px;
+    padding-left: 10px;
+	text-align: left;
+}
+
+
+
+.white{
+	border-left:none !important;
+	border-right:none !important;
+}
+
+.hr{
+	float:right !important;
+	width:50% !important;
+	margin-top:8px;
+	margin-right:300px;
+	height:20px;
+}
+
+#data{
+	border-right:none !important;
+}
+
+.registro{
+	border-right:none !important;
+    vertical-align:super !important;
+	padding-top:60px !important;
+	text-align:left !important;
+}
+
+.tr-large{
+	height:45px !important;
+    vertical-align:super !important;	
+}
+
+.tr-normal{
+	height:13px !important;
+    vertical-align:super !important;
+}
+
+
+.logo{
+	border-left:none !important;
+	text-align:right !important;
+	padding-right:40px;
+	padding-top:20px !important;
+}
+
+.controle_etiqueta{
+	text-align:center !important;
+}
+
+.head{
+	height:38px !important;
+    vertical-align:super !important;
+}
+
+.tr-super{
+    vertical-align:super !important;
+	margin-top:-30px !important;
+}
+
+.td-super{
+   
+}
+
+.aparelho{
+	width:200px;
+}
+
+.border_interno{
+
+text-align:center !important;
+border: 1px black solid;
+height:2px !important;
+margin-top:15px;
+padding-top:40px;
+		
+	
+}.border_interno b{
+	z-index:99;
+	position:relative;
+	top:-25px;
+
+}
+.tam{
+padding-top:5;
+padding-right:30px;
+padding-left:30px;
+height:5px;
+
+}
+
+.linea{
+	float:right !important;
+	width:50% !important;
+	margin-top:8px;
+	margin-right:275px;
+}
+
+.linea1{
+	float:right !important;
+	width:50% !important;
+	margin-top:8px;
+	margin-right:219px;
+}
+
+.myinput[type="checkbox"]:before{
+    position: center;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #808080;
+    content: "";
+    background: #FFF;	
+	float:right !important;
+	z-index:999;
+	position:relative;
+	top:0px;
+}
+
+.nameinput{
+	z-index:999 !important;
+	position:relative !important;
+	top:5px !important;
+	margin-right:13px;
+	margin-left:2px;
+}
+
+.registro p{
+	z-index:999;
+	position:absolute;
+	top:55px;
+}
+
+
+
+
+
+/*fin de tabla imprimir*/
+
+/* CLASSES AUXILIARES */
+
+.dark {
+	background: #cfcfcf;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+/*----------------------------------------------------*/
+
+@media screen
+{
+	.onlyPrint {
+		display: none;
+	}
+
+	.tableLinhas {
+		font-size: 0.8em;
+	}
+	
+}
+
+
+@media print
+{
+	.onlyScreen {
+		display: none;
+	}
+	
+	.filhoPerdido{
+		display:none !important;
+	}
+}

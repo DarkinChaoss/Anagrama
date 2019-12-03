@@ -1,0 +1,13 @@
+.margem{
+	margin-top: 20px;	
+	margin-bottom: 20px;
+}
+.acima_validade{
+	margin-left:10px; color:#094812; background-color:#BBEAB9; padding:10px;
+}
+.dentro_validade{
+	margin-left:10px; color:#686C02; background-color:#F7F5C4; padding:10px;
+}
+.vencido{
+	margin-left:10px; color:#740A0A; background-color:#FEC2C2; padding:10px;
+}
