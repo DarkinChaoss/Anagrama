@@ -19,11 +19,9 @@
 	$item = new ItensSolicitacaoModel();
 	//mexer aqui amanha fzr outro metodo que pegue diferente o valor	
 	if($_REQUEST['remp'] == 'true'){
-		error_log('entrou no true');
 		$item = ItensSolicitacoesController::getItem($_REQUEST['item'], true);
 	}
 	else{
-		error_log('falseeeee');
 		$item = ItensSolicitacoesController::getItem($_REQUEST['item']);
 	}
 	

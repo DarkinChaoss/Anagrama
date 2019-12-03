@@ -550,7 +550,6 @@
 				<th width="70">Sala</th>
 				<th>Produto</th>
 				<th>Quantidade</th>
-<<<<<<< HEAD
 				<th width="110">Lote esterilização</th>
 				<th width="100">Val. esterilização</th>
 				<th width="60">
